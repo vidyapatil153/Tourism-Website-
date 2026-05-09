@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel | Explore Maharashtra</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Rowdies:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="index.html" id="logo" aria-label="Travel Home">
+        <p><span>T</span>ravel</p>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="Beaches.html">Beaches</a></li>
+        <li><a href="Forts.html">Forts</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+      
+    </nav>
+  </header>
+
+  <section id="welcome" class="hero">
+    <video class="hero-video" src="photos/vid-1.mp4" autoplay muted loop playsinline aria-label="Travel reel"></video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1 class="hero-title">
+        <span>Never</span>
+        <span>Stop</span>
+        <span>Exploring</span>
+      </h1>
+      <a class="btn btn-accent" href="#explore">Start Exploring</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="explore" class="section container">
+      <h2 class="section-title">Explore</h2>
+
+      <div class="grid cards">
+        <!-- Card -->
+        <a class="card" href="Mumbai.html" aria-label="Explore Mumbai">
+          <img src="Photos/mumbaibwsl.jpg" alt="Bandra-Worli Sea Link in Mumbai at dusk" />
+          <div class="card-overlay"></div>
+          <p class="card-text">Mumbai</p>
+        </a>
+
+        <a class="card" href="Pune.html" aria-label="Explore Pune">
+          <img src="Photos/pune.jpg" alt="Skyline of Pune with hills" />
+          <div class="card-overlay"></div>
+          <p class="card-text">Pune</p>
+        </a>
+
+        <a class="card" href="nagpur.html" aria-label="Explore Nagpur">
+          <img src="Photos/nagpur8.jpg" alt="Zero Mile monument in Nagpur" />
+          <div class="card-overlay"></div>
+          <p class="card-text">Nagpur</p>
+        </a>
+
+        <a class="card" href="thane.html" aria-label="Explore Thane">
+          <img src="Photos/thane.jpg" alt="Lakefront in Thane" />
+          <div class="card-overlay"></div>
+          <p class="card-text">Thane</p>
+        </a>
+
+        <a class="card" href="nashik.html" aria-label="Explore Nashik">
+          <img src="Photos/nashik.jpg" alt="Vineyards in Nashik" />
+          <div class="card-overlay"></div>
+          <p class="card-text">Nashik</p>
+        </a>
+
+        <a class="card" href="Sambhajinagar.html" aria-label="Explore Sambhajinagar">
+          <img src="Photos/Sambhajinagar.jpg" alt="Historic architecture in Sambhajinagar" />
+          <div class="card-overlay"></div>
+          <p class="card-text">Sambhajinagar</p>
+        </a>
+
+        <a class="card" href="kolhapur.html" aria-label="Explore Kolhapur">
+          <img src="Photos/kolhapur.jpg" alt="Temple and city view in Kolhapur" />
+          <div class="card-overlay"></div>
+          <p class="card-text">Kolhapur</p>
+        </a>
+
+        <a class="card" href="Amravati.html" aria-label="Explore Amravati">
+          <img src="Photos/Amravati1.jpg" alt="Cityscape of Amravati" />
+          <div class="card-overlay"></div>
+          <p class="card-text">Amravati</p>
+        </a>
+
+        <a class="card" href="Ahmednagar.html" aria-label="Explore Ahmednagar">
+          <img src="Photos/Ahemadnagar.jpg" alt="Fort walls in Ahmednagar" />
+          <div class="card-overlay"></div>
+          <p class="card-text">Ahmednagar</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Get Updates</h3>
+        <form class="newsletter" action="#" method="post">
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required />
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <div class="logos">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="legal">© 2026 Travel. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Simple mobile nav toggle
+    const toggle = document.querySelector('.nav-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+      toggle.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

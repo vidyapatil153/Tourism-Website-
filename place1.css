@@ -1,0 +1,72 @@
+.explore #place1 h1{
+    font-size: 2rem;
+    position: absolute;
+    top: 890px;
+    left: 85px;
+    font-weight: bold;
+    color: white ;
+}
+.explore #place2 h1{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 896px;
+    left: 497px;
+    font-weight: bold;
+    color: white ;
+}
+.explore #place3 h1{
+    font-size: 2rem;
+    position: absolute;
+    top: 830px;
+    left: 945px;
+    font-weight: bold;
+    color: white ;
+}
+.explore #place4 h1{
+    font-size: 2rem;
+    position: absolute;
+    top: 1145px;
+    left: 95px;
+    font-weight: bold;
+    color: white ;
+}
+.explore #place5 h1{
+    font-size: 1.4rem;
+    position: absolute;
+    top: 1150px;
+    left: 465px;
+    font-weight: bold;
+    color: white ;
+}
+.explore #place6 h1{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 1143px;
+    left: 902px;
+    font-weight: bold;
+    color: white;
+}
+.explore #place7 h1{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 1463px;
+    left: 110px;
+    font-weight: bold;
+    color: white;
+}
+.explore #place8 h1{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 1463px;
+    left: 560px;
+    font-weight: bold;
+    color: white;
+}
+.explore #place9 h1{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 1463px;
+    left: 975px;
+    font-weight: bold;
+    color: white;
+}
