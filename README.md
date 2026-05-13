@@ -82,4 +82,4 @@ Simply open `index.html` in your browser.
 - Ahmednagar
 - Amravati
 
-<img width="1912" height="923" alt="Screenshot 2026-05-08 201156" src="https://github.com/user-attachments/assets/07859dd7-8b1c-4c89-a092-574922651a4a" />
+<img width="1912" height="923" alt="Screenshot 2026-05-08 201156" src="https://github.com/user-attachments/assets/398afa9f-2fb7-4f88-9d9f-085d0e61d004" />
